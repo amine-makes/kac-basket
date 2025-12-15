@@ -1,4 +1,4 @@
-import { Instagram, Facebook, Twitter, Mail, Phone, MapPin } from "lucide-react";
+import { Instagram, Facebook, Mail, Phone, MapPin } from "lucide-react";
 import kacLogo from "@/assets/kac-logo.jpeg";
 
 const Footer = () => {
@@ -57,17 +57,14 @@ const Footer = () => {
           {/* Social */}
           <div>
             <h3 className="font-display text-lg mb-4">Follow Us</h3>
-            <div className="flex gap-4">
-              <a href="#" className="w-10 h-10 rounded-full bg-secondary flex items-center justify-center hover:bg-primary transition-colors group">
-                <Instagram className="w-5 h-5 group-hover:text-primary-foreground" />
-              </a>
-              <a href="#" className="w-10 h-10 rounded-full bg-secondary flex items-center justify-center hover:bg-primary transition-colors group">
-                <Facebook className="w-5 h-5 group-hover:text-primary-foreground" />
-              </a>
-              <a href="#" className="w-10 h-10 rounded-full bg-secondary flex items-center justify-center hover:bg-primary transition-colors group">
-                <Twitter className="w-5 h-5 group-hover:text-primary-foreground" />
-              </a>
-            </div>
+              <div className="flex gap-4">
+                <a href="https://www.instagram.com/clubkacoffbasket" target="_blank" rel="noreferrer" className="w-10 h-10 rounded-full bg-secondary flex items-center justify-center hover:bg-primary transition-colors group">
+                  <Instagram className="w-5 h-5 group-hover:text-primary-foreground" />
+                </a>
+                <a href="#" className="w-10 h-10 rounded-full bg-secondary flex items-center justify-center hover:bg-primary transition-colors group">
+                  <Facebook className="w-5 h-5 group-hover:text-primary-foreground" />
+                </a>
+              </div>
           </div>
         </div>
 

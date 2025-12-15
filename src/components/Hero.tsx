@@ -38,20 +38,30 @@ const Hero = () => {
             </a>
           </div>
 
-          {/* Stats */}
-          <div className="flex gap-12 mt-16 animate-fade-in-up animation-delay-400">
-            <div>
-              <p className="font-display text-4xl text-primary">500+</p>
-              <p className="text-sm text-muted-foreground uppercase tracking-wide">Products</p>
+          {/* WhatsApp order + socials */}
+          <div className="mt-12 animate-fade-in-up animation-delay-400">
+            <h3 className="font-display text-xl mb-2">Order T‑shirt via WhatsApp</h3>
+            <p className="text-muted-foreground mb-4">To order a t‑shirt, send us a message on WhatsApp and we'll confirm availability and size.</p>
+            <div className="flex items-center gap-4">
+              <a
+                href="https://wa.me/212624738422?text=Hello%2C%20I%20want%20to%20order%20a%20t-shirt"
+                target="_blank"
+                rel="noreferrer"
+                className="inline-flex items-center gap-3 btn-primary rounded-lg"
+              >
+                Order on WhatsApp
+              </a>
+
+              <a
+                href="https://www.instagram.com/clubkacoffbasket"
+                target="_blank"
+                rel="noreferrer"
+                className="inline-flex items-center px-4 py-2 border border-foreground/20 rounded-lg hover:border-primary transition-colors text-foreground"
+              >
+                Follow on Instagram
+              </a>
             </div>
-            <div>
-              <p className="font-display text-4xl text-primary">10K+</p>
-              <p className="text-sm text-muted-foreground uppercase tracking-wide">Customers</p>
-            </div>
-            <div>
-              <p className="font-display text-4xl text-primary">5★</p>
-              <p className="text-sm text-muted-foreground uppercase tracking-wide">Rating</p>
-            </div>
+            <p className="text-sm text-muted-foreground mt-3">Club phone & address will be updated soon.</p>
           </div>
         </div>
       </div>
